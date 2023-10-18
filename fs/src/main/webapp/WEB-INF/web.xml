@@ -13,7 +13,7 @@
   
   <servlet>
       <servlet-name>Controller</servlet-name>
-      <servlet-class>by.avramchuk.cv.main.controller.FrontController</servlet-class>
+      <servlet-class>by.avramchuk.fs.controller.FrontController</servlet-class>
   </servlet>
   
   <servlet-mapping>
