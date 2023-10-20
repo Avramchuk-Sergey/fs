@@ -3,6 +3,7 @@ package by.avramchuk.fs.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import by.avramchuk.fs.controller.impl.ConfirmRegistration;
 import by.avramchuk.fs.controller.impl.DoRegistration;
 import by.avramchuk.fs.controller.impl.DoSearch;
 import by.avramchuk.fs.controller.impl.DoSignIn;
@@ -17,6 +18,7 @@ public class CommandProvider {
 		commands.put(CommandName.DO_SIGN_IN, new DoSignIn());
 		commands.put(CommandName.DO_REGISTRATION, new DoRegistration());
 		commands.put(CommandName.DO_SEARCH, new DoSearch());
+		commands.put(CommandName.CONFIRM_REGISTRATION,new ConfirmRegistration());
 	}
 	
 	public Command getCommand (String name) {

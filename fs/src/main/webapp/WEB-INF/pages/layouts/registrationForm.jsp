@@ -10,6 +10,11 @@
 </head>
 
     <body>
-        <h1>Registration form</h1>
+        <h1>Registration form</h1> <br/>
+        
+        <form action="controller" method="get">
+            <input type="hidden" name="command" value="confirm_registration"/>
+            <input type="submit" value="confirm registration"/>
+        </form>
     </body>
 </html>
