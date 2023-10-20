@@ -9,6 +9,10 @@
     </head>
     
     <body>
-        <h1>I just did it!!!!</h1>
+        <h1>Main page</h1><br />
+        <form action="controller" method="get">
+            <input type="hidden" name="command" value="do_sign_in" />
+            <input type="submit" value="Sign in"/>
+        </form>
     </body>
 </html>
