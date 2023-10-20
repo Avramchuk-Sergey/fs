@@ -14,5 +14,16 @@
             <input type="hidden" name="command" value="do_sign_in" />
             <input type="submit" value="Sign in"/>
         </form>
+        <br />
+        <form action="controller" method="get">
+            <input type="hidden" name="command" value="do_registration"/>
+            <input type="submit" value="Registration"/>
+        </form>
+        <br />
+        <form action="controller" method="get">
+            <input type="hidden" name="command" value="do_search"/>
+            <input type="submit" value="Search"/> 
+        </form>
+        <br />
     </body>
 </html>
