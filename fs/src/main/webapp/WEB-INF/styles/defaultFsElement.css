@@ -1,0 +1,8 @@
+.defaultElement {
+  position: absolute;
+  padding: 10px;
+  cursor: move;
+  background-color: #2196F3;
+  color: #fff;
+  border: 1px solid #d3d3d3;
+}

@@ -4,12 +4,21 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>FS editor</title>
-    </head>
-    
-    <body>
-        <h1>FS editor page</h1><br/>
-        
-    </body>
+
+<head>
+   <style> 
+      <%@include file="/WEB-INF/styles/defaultFsElement.css"%> 
+   </style>
+
+   <script>
+      <%@include file="/WEB-INF/scripts/editorScripts/createNewFsElement.js"%>
+      <%@include file="/WEB-INF/scripts/editorScripts/dragElement.js"%> 
+   </script>
+</head>
+
+<body>
+   <button onclick="createNewElement()">Create element</button>
+   <div id="container"></div>
+</body>
+
 </html>
